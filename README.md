@@ -8,8 +8,6 @@ Currently learning the most commonly used Microsoft Azure services, such as reso
 After you get your subscription we can start.
 In order to be able to create almost anything from the services you should firstly create your resource group.
 
-**API MANAGEMENT** - manage all your APIs, entry point for requests (from frontend) to backend
-![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/api%20management.PNG)
 
 **VM - virtual machine** - your remote pc, choose specifications, and do whatever you want to (in AWS something like EC2) :D
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/VM.PNG)
@@ -23,8 +21,17 @@ In order to be able to create almost anything from the services you should first
 **App service - IAM** - similar to AWS IAM, you are managing access control (roles, permissions, admins, user groups...)
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/IAM-microsoft.PNG)
 
+**API MANAGEMENT** - manage all your APIs, entry point for requests (from frontend) to backend
+![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/api%20management.PNG)
+
 **Database server** - for hosting your databases
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/db%20server.PNG)
+
+**Database** - SQL database
+![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/database.PNG)
+
+**Storage account** - storage account used for uploading files. We have 4 functionalities to use: tables, queues, containers and file shares.
+![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/storage%20account.PNG)
 
 **Function app** - serverless yeaah that's it! :D (as lambda in AWS)
 Execute your code when you want, pay only for duration of your function app.
@@ -33,8 +40,9 @@ Execute your code when you want, pay only for duration of your function app.
 **Key vault** - we use them for some sensitive data, for example passwords, that we don't want to have plain in our ARM files.
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/Key%20vault.PNG)
 
-**Storage account** - storage account used for uploading files. We have 4 functionalities to use: tables, queues, containers and file shares.
-![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/storage%20account.PNG)
-
 **Application insights** - check the state of your application! Logging exceptions, events, failures, application map and a lot of other interesting metrics with a really nice UI presentations of the data. (similar to Cloudwatch in AWS)
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/App%20Insights.PNG)
+
+There are a lot of other services like Load balancers (to balance the traffic for an app to multiple servers), API gateway (to route the API calls to different services), lot of services for containers (docker, kubernetes, service bus), for AI and ML, bots... 
+
+Deep into it's depths! :D
