@@ -37,7 +37,7 @@ In order to be able to create almost anything from the services you should first
 Execute your code when you want, pay only for duration of your function app.
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/Function%20App%20Azure.PNG)
 
-**Key vault** - we use them for some sensitive data, for example passwords, that we don't want to have plain in our ARM files.
+**Key vault** - we use them for some sensitive data, for example passwords, that we don't want to have as plain text in our ARM files.
 ![alt text](https://github.com/Dacili/Microsoft-Azure/blob/main/Pictures/Key%20vault.PNG)
 
 **Application insights** - check the state of your application! Logging exceptions, events, failures, application map and a lot of other interesting metrics with a really nice UI presentations of the data. (similar to Cloudwatch in AWS)
@@ -45,4 +45,4 @@ Execute your code when you want, pay only for duration of your function app.
 
 There are a lot of other services like Load balancers (to balance the traffic for an app to multiple servers), API gateway (to route the API calls to different services), lot of services for containers (docker, kubernetes, service bus), for AI and ML, bots... 
 
-Deep into it's depths! :D
+Dive into it's depths! :D
